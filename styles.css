@@ -51,3 +51,18 @@ nav ul li a {
 .highlight {
   color: #0077cc;
 }
+
+/* Home */
+.profile-img {
+  width: 250px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+/* Skills*/
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
