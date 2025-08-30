@@ -77,3 +77,26 @@ nav ul li a {
   margin: 5px 0;
   border-radius: 5px;
 }
+
+/* Projects */
+.projects-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+}
+.project-card img {
+  width: 75%;
+  border-radius: 5px;
+}
+.project-card h3 {
+  margin-top: 10px;
+}
+
+/*  */
