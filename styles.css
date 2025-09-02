@@ -53,10 +53,21 @@ nav ul li a {
 }
 
 /* Home */
+.circle-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #333;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 .profile-img {
-  width: 250px;
-  border-radius: 50px;
-  margin-top: 20px;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
 }
 
 /* Skills*/
